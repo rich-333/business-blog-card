@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Solutions for small business" />
 
     <link rel="stylesheet" href="./dist/output.css" />
 
@@ -15,27 +16,44 @@
 
     <title>Business Blog Card | devChallenges.io</title>
   </head>
-  <body>
-    <article>
-      <div>
-        <img src="./resources/hero-image-1.jpg" alt="hero image card" />
+  <body
+    class="bg-gray-light flex place-content-center font-primary text-gray-dark mt-28 mb-7 box-border"
+  >
+    <article
+      class="bg-white w-96 lg:w-[26rem] rounded-2xl overflow-hidden shadow-xs"
+    >
+      <div class="mb-7">
+        <img
+          class="object-cover"
+          src="./resources/hero-image-1.jpg"
+          alt="hero image card"
+          width="100%"
+          height="100%"
+        />
       </div>
 
-      <div>
-        <h1>Perfect solution for small business</h1>
-        <p>
+      <div class="px-7">
+        <h1 class="font-title text-2xl font-semibold text-black">
+          Perfect solution for small business
+        </h1>
+        <p class="mt-4 mb-8">
           Small businesses need to generate leads to grow. You can use tools
           like Ringy.
         </p>
       </div>
 
-      <footer>
+      <footer class="border-t-2 border-gray-light px-7 flex gap-4 py-6">
         <img
+          class="rounded-full object-cover"
           src="./resources/avatar-image-business-card-1.png"
           alt="avatar image"
+          width="50px"
+          height="50px"
         />
-        <span>Amy Burgess</span>
-        <span>Customer Manger, Solution Oy</span>
+        <div class="flex flex-col">
+          <span class="font-semibold text-black">Amy Burgess</span>
+          <span>Customer Manger, Solution Oy</span>
+        </div>
       </footer>
     </article>
   </body>
